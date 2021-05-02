@@ -1,0 +1,121 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+.header_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 1em;
+}
+.header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 1em;
+}
+.header_left_item {
+    padding: 1.5em .75em 1.5em .75em;
+}
+.header_right_item {
+    font-size: 13px;
+    padding: 1em .5em 1em .5em;
+}
+.sign_in {
+    background-color: rgb(60, 103, 243);
+    color: white;
+    padding: .75em 2em .75em 2em;
+    border-radius: 5px;
+    border: none;
+}
+.google_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.75em;
+}
+#search_bar:hover{
+    box-shadow: 0px 0px 3px 1px lightgrey;
+}
+.magnifying_glass {
+    padding: 1em 0 1em 0;
+    position: relative;
+    left: 2.5em;
+    border: none;
+}
+#search_bar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    border-radius: 25px;
+    border: .5px solid lightgrey;
+    height: 3em;
+    line-height: 1em;
+    padding: 0 3.5em 0 3.5em;
+    outline: none;
+    width: 40em;
+}
+.mic_logo{
+    padding: 1em 0 1em 0;
+    position: relative;
+    right: 2.5em;
+    border: none;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.Google_Search, .Lucky{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 1em 1em 0 1em;
+    padding: .75em 1.25em .75em 1.25em;
+    background-color:#f8f9fa;
+    border: none;
+    border-radius: 5px;
+}
+.Google_Search:hover, .Lucky:hover{
+    box-shadow: 0px 0px 3px 1px lightgray;
+    border: rgb(194, 194, 194);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer1{
+    width: 100%;
+    background-color:#f2f2f2;
+    color: #70757a;
+    padding: 1em 0 1em 2em;
+    width: 100%;
+}
+.footer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 100%;
+    background-color:#f2f2f2;
+    border-top: 1px solid rgba(214, 202, 202, 0.54);
+}
+.footer2_1{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer2_2{
+    display: flex;
+    justify-content: flex-end;;
+}
+.footer2_items {
+    padding: 0 1em 0 1em;
+    margin: 1em .5em 1em .5em;
+    color: #70757a;
+}
